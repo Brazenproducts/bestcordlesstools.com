@@ -51,6 +51,67 @@ header.scrolled,nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.1)!important}
 .footer-col a{display:block;color:#94A3B8;font-size:.85rem;margin-bottom:6px;text-decoration:none}
 .footer-col a:hover{color:#fff}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What do amp-hours (Ah) actually tell me about a battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amp-hours measure how much energy the battery can store, so a 5.0Ah battery runs roughly 2.5x longer than a 2.0Ah battery on the same tool. It does not directly affect power output, though higher-Ah packs often deliver better sustained performance under heavy load. More Ah also means more weight and cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I buy higher-voltage batteries when available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Higher voltage (like 18V/20V vs 12V) gives you access to more powerful tools, but those tools are also heavier. Platforms that offer flex-voltage batteries (DeWalt FlexVolt, Milwaukee High Output) scale power automatically with the tool. Don't chase voltage for its own sake."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I store lithium-ion batteries long-term?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Store lithium-ion batteries at roughly 40-60% charge in a cool, dry place, ideally between 50-77°F. Avoid leaving them fully charged or fully empty for months. Check them every few months if stored for long periods and give them a quick top-up if needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are third-party batteries safe to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality varies widely and most tool warranties become void if you use non-OEM packs. Some third-party batteries skip thermal and charge-protection circuitry, which can be a fire hazard. For safety and warranty coverage, stick with genuine batteries from your tool brand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do cordless tool batteries typically last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most modern lithium-ion packs deliver 500-1,000 charge cycles before significant capacity loss, which is 3-5 years for regular users. Heat kills batteries faster than anything else, so avoid leaving them in hot vehicles. Rotating between packs also extends overall life."
+      }
+    }
+  ]
+}
+</script>
+<style>
+/* FAQ Section */
+.faq-section{background:var(--card-bg,#1a1a1a);border:1px solid var(--border-color,#333);border-radius:8px;padding:2rem 1.5rem;margin:2.5rem 0}
+.faq-section h2{font-family:var(--font-heading,inherit);color:var(--white,#fff);margin-bottom:1.5rem;font-size:1.6rem;text-align:center}
+.faq-item{border-bottom:1px solid var(--border-color,#333);padding:1rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-item summary{cursor:pointer;font-weight:600;color:var(--white,#fff);font-size:1.05rem;padding:.5rem 0;list-style:none;position:relative;padding-right:2rem}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);color:var(--accent,#e8600a);font-size:1.5rem;font-weight:400;transition:transform .2s}
+.faq-item[open] summary::after{content:"\2212"}
+.faq-item summary:hover{color:var(--accent,#e8600a)}
+.faq-item p{margin:.8rem 0 .4rem;color:var(--text-secondary,#ccc);line-height:1.7;font-size:.98rem}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -139,6 +200,14 @@ header.scrolled,nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.1)!important}
 <li><a href="https://bestfirestick.com">streaming device reviews</a></li>
 </ul>
 </div>
+<section class="faq-section" id="faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Frequently Asked Questions</h2>
+  <details class="faq-item"><summary>What do amp-hours (Ah) actually tell me about a battery?</summary><p>Amp-hours measure how much energy the battery can store, so a 5.0Ah battery runs roughly 2.5x longer than a 2.0Ah battery on the same tool. It does not directly affect power output, though higher-Ah packs often deliver better sustained performance under heavy load. More Ah also means more weight and cost.</p></details>
+  <details class="faq-item"><summary>Should I buy higher-voltage batteries when available?</summary><p>Higher voltage (like 18V/20V vs 12V) gives you access to more powerful tools, but those tools are also heavier. Platforms that offer flex-voltage batteries (DeWalt FlexVolt, Milwaukee High Output) scale power automatically with the tool. Don't chase voltage for its own sake.</p></details>
+  <details class="faq-item"><summary>How should I store lithium-ion batteries long-term?</summary><p>Store lithium-ion batteries at roughly 40-60% charge in a cool, dry place, ideally between 50-77°F. Avoid leaving them fully charged or fully empty for months. Check them every few months if stored for long periods and give them a quick top-up if needed.</p></details>
+  <details class="faq-item"><summary>Are third-party batteries safe to use?</summary><p>Quality varies widely and most tool warranties become void if you use non-OEM packs. Some third-party batteries skip thermal and charge-protection circuitry, which can be a fire hazard. For safety and warranty coverage, stick with genuine batteries from your tool brand.</p></details>
+  <details class="faq-item"><summary>How long do cordless tool batteries typically last?</summary><p>Most modern lithium-ion packs deliver 500-1,000 charge cycles before significant capacity loss, which is 3-5 years for regular users. Heat kills batteries faster than anything else, so avoid leaving them in hot vehicles. Rotating between packs also extends overall life.</p></details>
+</section>
 <footer class="site-footer">
 <div class="affiliate-disclosure"><p><strong>Affiliate Disclosure:</strong> We may earn a commission if you buy through our links, at no extra cost to you.</p></div>
 <div class="footer-bottom"><p>© 2026 BestCordlessTools.com — <a href="https://whatarebest.com">Part of the What Are Best network</a></p></div>
